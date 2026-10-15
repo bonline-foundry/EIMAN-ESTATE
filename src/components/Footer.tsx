@@ -153,7 +153,7 @@ export default function Footer() {
       {...motionProps}
     >
       <motion.div
-        className="mx-auto flex min-h-[500px] max-w-[1780px] flex-col px-6 pb-12 pt-16 sm:pt-20 lg:px-[78px] lg:pt-[100px]"
+        className="mx-auto flex min-h-[500px] max-w-[1780px] flex-col px-6 pb-28 pt-16 sm:pt-20 md:pb-12 lg:px-[78px] lg:pt-[100px]"
         variants={containerStagger}
       >
         {/* TOP AREA */}

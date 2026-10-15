@@ -49,7 +49,7 @@ export default function MobileBrochureButton() {
           <TransitionLink
             href="/brochure"
             direction="forward"
-            className="flex h-12 cursor-pointer items-center gap-2 rounded-full border border-white/60 bg-white/50 pl-4 pr-5 font-sans text-[16px] text-dark-green shadow-[0_8px_32px_0_rgba(1,86,63,0.2)] backdrop-blur-xl transition-all duration-300 hover:scale-105 hover:bg-white/70 focus:outline-none focus-visible:ring-2 focus-visible:ring-dark-green"
+            className="flex h-12 cursor-pointer items-center gap-2 rounded-full border border-white/60 bg-white/50 pl-4 pr-5 font-sans text-[16px] text-dark-green shadow-[0_8px_32px_0_rgba(1,86,63,0.2)] backdrop-blur-xl transition-[transform,background-color] duration-300 ease-out hover:scale-105 hover:bg-white/70 focus:outline-none focus-visible:ring-2 focus-visible:ring-dark-green"
           >
             <DocumentIcon />
             Brochure
