@@ -4,6 +4,7 @@ import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import FloatingControls from "@/components/FloatingControls";
 import BackToHome from "@/components/BackToHome";
+import MobileBrochureButton from "@/components/MobileBrochureButton";
 import TransitionProvider from "@/components/TransitionProvider";
 import BookingProvider from "@/components/BookingProvider";
 import IntroProvider from "@/components/IntroProvider";
@@ -84,6 +85,7 @@ export default function RootLayout({
                   <Footer />
                 </SmoothScroll>
                 <FloatingControls />
+                <MobileBrochureButton />
                 {process.env.NODE_ENV === "development" && <Agentation />}
               </BookingProvider>
             </TransitionProvider>

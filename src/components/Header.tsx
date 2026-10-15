@@ -38,7 +38,6 @@ const SECONDARY_NAV = [
   { label: "Environment", href: "/environment" },
   { label: "Collaboration", href: "/collaboration" },
   { label: "Projects", href: "/?scroll=projects", scrollId: "projects" },
-  { label: "Brochure", href: "/brochure" },
   { label: "News & Events", href: "/?scroll=news", scrollId: "news" },
   { label: "Contact Us", href: "/?scroll=footer", scrollId: "footer" },
 ];
