@@ -145,6 +145,7 @@ body {
 .brochure-page {
   background: #f3efe6;
   overflow: hidden;
+  cursor: grab;
   box-shadow: 0 22px 44px -22px rgb(0 0 0 / 0.38), 0 2px 6px rgb(0 0 0 / 0.06);
 }
 
@@ -188,6 +189,12 @@ body {
 .brochure-book {
   min-width: 0 !important;
   min-height: 0 !important;
+}
+
+/* Closed hand for the whole press, even once the drag leaves the page */
+.brochure-book:active,
+.brochure-book:active * {
+  cursor: grabbing;
 }
 
 /* Scrub slider: 1px track, filled part dark, round thumb */

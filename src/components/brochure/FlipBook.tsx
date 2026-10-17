@@ -238,6 +238,8 @@ const FlipBook = forwardRef<FlipBookHandle, FlipBookProps>(function FlipBook(
         mobileScrollSupport: false,
         swipeDistance: 30,
         disableFlipByClick: true,
+        // No hover curl at the corners: a page only moves once it is pressed and dragged.
+        showPageCorners: false,
       });
       flipRef.current = book;
 
