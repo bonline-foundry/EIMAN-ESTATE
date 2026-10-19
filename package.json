@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx next-sitemap",
+    "build": "next build --webpack && npx next-sitemap",
     "start": "next start",
     "lint": "eslint"
   },
